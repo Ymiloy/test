@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador de Comidas Semanal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Planificador de Comidas Semanal</h1>
+    </header>
+    <main>
+        <table id="mealTable">
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Desayuno</th>
+                    <th>Almuerzo</th>
+                    <th>Cena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td><textarea id="monBreakfast" aria-label="Desayuno Lunes"></textarea></td>
+                    <td><textarea id="monLunch" aria-label="Almuerzo Lunes"></textarea></td>
+                    <td><textarea id="monDinner" aria-label="Cena Lunes"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td><textarea id="tueBreakfast" aria-label="Desayuno Martes"></textarea></td>
+                    <td><textarea id="tueLunch" aria-label="Almuerzo Martes"></textarea></td>
+                    <td><textarea id="tueDinner" aria-label="Cena Martes"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td><textarea id="wedBreakfast" aria-label="Desayuno Miércoles"></textarea></td>
+                    <td><textarea id="wedLunch" aria-label="Almuerzo Miércoles"></textarea></td>
+                    <td><textarea id="wedDinner" aria-label="Cena Miércoles"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td><textarea id="thuBreakfast" aria-label="Desayuno Jueves"></textarea></td>
+                    <td><textarea id="thuLunch" aria-label="Almuerzo Jueves"></textarea></td>
+                    <td><textarea id="thuDinner" aria-label="Cena Jueves"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td><textarea id="friBreakfast" aria-label="Desayuno Viernes"></textarea></td>
+                    <td><textarea id="friLunch" aria-label="Almuerzo Viernes"></textarea></td>
+                    <td><textarea id="friDinner" aria-label="Cena Viernes"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td><textarea id="satBreakfast" aria-label="Desayuno Sábado"></textarea></td>
+                    <td><textarea id="satLunch" aria-label="Almuerzo Sábado"></textarea></td>
+                    <td><textarea id="satDinner" aria-label="Cena Sábado"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Domingo</td>
+                    <td><textarea id="sunBreakfast" aria-label="Desayuno Domingo"></textarea></td>
+                    <td><textarea id="sunLunch" aria-label="Almuerzo Domingo"></textarea></td>
+                    <td><textarea id="sunDinner" aria-label="Cena Domingo"></textarea></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="buttons">
+            <button id="saveButton">Guardar Plan</button>
+            <button id="clearButton">Limpiar Plan</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Planificador de Comidas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

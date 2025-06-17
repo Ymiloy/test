@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background-color: #e8f5e9; /* Lighter Green */
+    color: #333;
+}
+
+td:first-child { /* Day column */
+    font-weight: bold;
+    width: 10%;
+    background-color: #f0f0f0;
+}
+
+textarea {
+    width: 95%;
+    min-height: 80px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: sans-serif;
+    resize: vertical; /* Allow vertical resizing */
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+#clearButton {
+    background-color: #f44336; /* Red for clear */
+}
+
+#clearButton:hover {
+    background-color: #e53935; /* Darker Red for clear */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
