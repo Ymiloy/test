@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Create New Job Offer{% endblock %}
+
+{% block content %}
+    <h1>Create New Job Offer</h1>
+    <form method="POST">
+        <div>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+        </div>
+        <div>
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" required>
+        </div>
+        <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+        </div>
+        <div>
+            <label for="salary">Salary (optional):</label>
+            <input type="text" id="salary" name="salary">
+        </div>
+        <div>
+            <button type="submit">Create Offer</button>
+        </div>
+    </form>
+    <p><a href="{{ url_for('home') }}">Back to Home</a></p>
+{% endblock %}
